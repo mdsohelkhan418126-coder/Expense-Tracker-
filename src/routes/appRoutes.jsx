@@ -1,3 +1,4 @@
+import DashboardLayout from '../layouts/DashboardLayout';
 import Mainlayout from '../layouts/Mainlayout';
 import About from '../pages/About';
 import Home from '../pages/Home';
@@ -22,6 +23,10 @@ export const appRoutes = [
     path: '/login',
     element:<Login/>
   
+  },
+  {
+  path:'/dashboard',
+  element:<DashboardLayout/>
   }
 
 
